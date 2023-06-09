@@ -321,6 +321,7 @@ footer{
 }
 
 .footer-list-items li a{
+    transition: opacity 0.4s ease;
     color: #fff;
 }
 

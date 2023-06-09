@@ -13,11 +13,14 @@
 </head>
 <body>
     <header>
-        <div class="container">
-            <nav class="sitenav-container">
+        <div class="container container-header">
+            <div class="sitenav-logo">
                 <a href="index.html">
-                    <img src="./images/logo.png" alt="logo" class="logo-link">
+                    <img src="./images/logo-icon.jpg" srcset="/images/logo-icon.jpg 1x, /images/logo-icon.jpg@2x 2x" alt="logo" width="50px", height="50px" class="sitenav-logo-img">
                 </a>
+                <a href="index.html" class="sitenav-logo-text">AnsorMed</a>
+            </div>
+            <nav class="sitenav-container">
                 <ul class="site-nav-links">
                     <li>
                         <a href="#" class="sitenav-link">Xizmatlar</a>
@@ -35,9 +38,8 @@
                         <a href="#" class="sitenav-link">Blog</a>
                     </li>
                 </ul>
-                <a href="#" class="main-link">Qabulga yozilish</a>
-
             </nav>
+            <a href="#" class="main-link">Qabulga yozilish</a>
         </div>
     </header>
 
@@ -48,9 +50,9 @@
                 <div class="hero-content">
                     <h1 class="hero-heading">Tabiiy davolash usullari yordamida <br> kasalliklardan xalos bo’ling.</h1>
                     <p class="hero-text">Hijoma, manual terapiya, zuluk va turli tabiiy giyohlar eng ko’p uchraydigan kasalliklarni yengishda yordam beradi. Sog’ligingizni o’z ishining professionallariga ishonib topshiring.</p>
-                    <a href="#" class="main-link">Qabulga yozilish</a>
+                    <a href="#" class="main-link  main-link-outline">Qabulga yozilish</a>
                 </div>
-                <img src="./images/hero-img.png" alt="Hero image" class="hero-img">
+                <img src="./images/hero-img.png" srcset="./images/hero-img.png 1x, ./images/hero-img@2x.png 2x" alt="Hero image" class="hero-img">
             </div>
         </section>
     <!-- /Hero section -->
@@ -89,39 +91,54 @@
                     </div>
                 </li>
             </ul>
-            <div>
-                <a href="#" class="main-link">Qabulga yozilish</a>
+            <div class="main-link-wrapped">
+                <a href="#" class="main-link main-link-outline">Qabulga yozilish</a>
             </div>
         </div>
     </section>
-    <!-- /Services section -->
+    <!-- /Services section -->    
+    </main>
 
     <!-- Footer -->
     <footer>
-        <div class="container footer-container">
+        <div class=" footer-container">
             <div class="footer-top">
                 <h1 class="footer-top-title">Qabulga ro'yxatdan o'ting</h1>
             </div>
             <div class="footer-links">
-                <a href="#" class="social-link">Qo'ngiroq qilish</a>
-                <a href="https://t.me/zufarkhonovS" class="social-link">Telegramdan yozish</a>
+                <a href="#" class="social-link main-link-outline">Qo'ngiroq qilish</a>
+                <a href="https://t.me/zufarkhonovS" class="social-link  main-link-outline">Telegramdan yozish</a>
             </div>
             <div class="footer-bottom">
-                <a href="index.html">
-                    <img src="./images/logo (footer).png" alt="Logo" class="logo">
-                </a>
-                <nav>
-                    <ul class="footer-nav-links">
-                        <li class="footer-nav-link"><a href="#">Xizmatlar</a></li>
-                        <li class="footer-nav-link"><a href="#">Dorilar</a></li>
-                        <li class="footer-nav-link"><a href="#">Asal</a></li>
-                        <li class="footer-nav-link"><a href="#">Kontaktlar</a></li>
-                        <li class="footer-nav-link"><a href="#">Blog</a></li>
-                    </ul>
-                </nav>
+                <div class="container footer-bottom-container">
+                    <div class="sitenav-logo footer-logo">
+                        <a href="index.html">
+                            <img src="./images/logo-icon.jpg" srcset="/images/logo-icon.jpg 1x, /images/logo-iconjpg@2x 2x" alt="logo" width="50px", height="50px" class="footer-logo-img">
+                        </a>
+                        <a href="index.html" class="sitenav-logo-text footer-logo-text">AnsorMed</a>
+                    </div>
+                    <nav class="sitenav-container">
+                        <ul class="site-nav-links footer-list-items">
+                            <li>
+                                <a href="#" class="sitenav-link">Xizmatlar</a>
+                            </li>
+                            <li>
+                                <a href="#" class="sitenav-link">Dorilar</a>
+                            </li>
+                            <li>
+                                <a href="#" class="sitenav-link">Asal</a>
+                            </li>
+                            <li>
+                                 <a href="#" class="sitenav-link">Kontaktlar</a>
+                            </li>
+                            <li>
+                                <a href="#" class="sitenav-link">Blog</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
-        </div>
+         </div>
     </footer>
-    </main>
 </body>
 </html>
